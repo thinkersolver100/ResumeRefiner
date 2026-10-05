@@ -35,17 +35,6 @@
 - 🕘 **History**: Every analysis is saved, so you can reopen or delete old reports
 - 🛡️ **Secure and robust**: Helmet, CORS allow-list, rate limiting, input validation, AI retry logic
 
-## 📸 Screenshots
-
-| Login | Analyze |
-|---|---|
-| <img src="screenshots/login.png" width="450" /> | <img src="screenshots/analyze.png" width="450" /> |
-
-| Resume History |
-|---|
-| <img src="screenshots/history.png" width="900" /> |
-
----
 
 ## 🧮 Scoring Rubric
 
