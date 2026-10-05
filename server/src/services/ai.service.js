@@ -1,47 +1,4 @@
-// const Groq = require("groq-sdk");
 
-// const client = new Groq({ apiKey: process.env.GROQ_API_KEY });
-
-// async function analyzeResume(text) {
-//   try {
-//     const completion = await client.chat.completions.create({
-//       model: "llama-3.3-70b-versatile",   // free & very capable
-//       messages: [
-//         {
-//           role: "user",
-//           content: `You are an ATS resume analyzer.
-
-// Return ONLY valid JSON:
-// {
-//   "score": number (0-100),
-//   "strengths": ["point1", "point2"],
-//   "weaknesses": ["point1", "point2"],
-//   "suggestions": ["point1", "point2"]
-// }
-
-// Resume:
-// ${text}`
-//         }
-//       ],
-//       response_format: { type: "json_object" }, // forces clean JSON
-//     });
-
-//     const aiText = completion.choices[0].message.content.trim();
-//     return JSON.parse(aiText);
-
-//   } catch (error) {
-//     console.error("AI ERROR:", error.message);
-//     return {
-//       score: 50,
-//       strengths: ["AI failed"],
-//       weaknesses: ["Model/API issue"],
-//       suggestions: ["Check API key"],
-//     };
-//   }
-// }
-
-// module.exports = analyzeResume;
-// server/src/services/ai.service.js
 
 const Groq = require("groq-sdk");
 
